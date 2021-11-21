@@ -8,7 +8,7 @@ namespace Challenge
 {
     public class Personaje
     {
-        public string Url { get; set; }
+        public byte[] Image { get; set; }
         public string Nombre { get; set; }
         public int Edad { get; set; }
         public float Peso { get; set; }

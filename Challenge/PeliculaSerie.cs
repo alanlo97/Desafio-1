@@ -8,7 +8,7 @@ namespace Challenge
 {
     public class PeliculaSerie
     {
-        public string Url { get; set; }
+        public byte[] Image { get; set; }
         public string Titulo { get; set; }
         public DateTime? FechaCreacion { get; set; }
         public int Calificaion { get; set; }

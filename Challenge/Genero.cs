@@ -9,7 +9,7 @@ namespace Challenge
     public class Genero
     {
         public string Nombre { get; set; }
-        public string Url { get; set; }
+        public byte[] Imagen { get; set; }
         public PeliculaSerie PeliculaSerieAsociada { get; set; }
 
     }
